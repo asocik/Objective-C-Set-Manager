@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SetManager.h"
+#import "OCSetManager.h"
+#import "ListSetManager.h"
 
 @interface SecondViewController : UIViewController
-
+@property (strong, nonatomic) SetManager *sharedManager;
 
 @end
 

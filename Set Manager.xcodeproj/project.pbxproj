@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		916075B91A1C282600EA3C98 /* LinkedListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 916075B11A1C282600EA3C98 /* LinkedListNode.m */; };
+		916075BA1A1C282600EA3C98 /* ListSetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 916075B31A1C282600EA3C98 /* ListSetManager.m */; };
+		916075BB1A1C282600EA3C98 /* OCSetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 916075B61A1C282600EA3C98 /* OCSetManager.m */; };
+		916075BC1A1C282600EA3C98 /* SetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 916075B81A1C282600EA3C98 /* SetManager.m */; };
 		916B0D501A1C1F1400A8F9A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B0D4F1A1C1F1400A8F9A5 /* main.m */; };
 		916B0D531A1C1F1400A8F9A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B0D521A1C1F1400A8F9A5 /* AppDelegate.m */; };
 		916B0D561A1C1F1400A8F9A5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B0D551A1C1F1400A8F9A5 /* FirstViewController.m */; };
@@ -28,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		916075B11A1C282600EA3C98 /* LinkedListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListNode.m; sourceTree = "<group>"; };
+		916075B21A1C282600EA3C98 /* ListSetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSetManager.h; sourceTree = "<group>"; };
+		916075B31A1C282600EA3C98 /* ListSetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSetManager.m; sourceTree = "<group>"; };
+		916075B41A1C282600EA3C98 /* LinkedListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListNode.h; sourceTree = "<group>"; };
+		916075B51A1C282600EA3C98 /* OCSetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCSetManager.h; sourceTree = "<group>"; };
+		916075B61A1C282600EA3C98 /* OCSetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSetManager.m; sourceTree = "<group>"; };
+		916075B71A1C282600EA3C98 /* SetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetManager.h; sourceTree = "<group>"; };
+		916075B81A1C282600EA3C98 /* SetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetManager.m; sourceTree = "<group>"; };
 		916B0D4A1A1C1F1400A8F9A5 /* Set Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Set Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		916B0D4E1A1C1F1400A8F9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		916B0D4F1A1C1F1400A8F9A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,9 +102,17 @@
 				916B0D551A1C1F1400A8F9A5 /* FirstViewController.m */,
 				916B0D571A1C1F1400A8F9A5 /* SecondViewController.h */,
 				916B0D581A1C1F1400A8F9A5 /* SecondViewController.m */,
-				916B0D5A1A1C1F1400A8F9A5 /* Main.storyboard */,
 				916B0D5D1A1C1F1400A8F9A5 /* Images.xcassets */,
 				916B0D5F1A1C1F1400A8F9A5 /* LaunchScreen.xib */,
+				916075B41A1C282600EA3C98 /* LinkedListNode.h */,
+				916075B11A1C282600EA3C98 /* LinkedListNode.m */,
+				916075B21A1C282600EA3C98 /* ListSetManager.h */,
+				916075B31A1C282600EA3C98 /* ListSetManager.m */,
+				916B0D5A1A1C1F1400A8F9A5 /* Main.storyboard */,
+				916075B51A1C282600EA3C98 /* OCSetManager.h */,
+				916075B61A1C282600EA3C98 /* OCSetManager.m */,
+				916075B71A1C282600EA3C98 /* SetManager.h */,
+				916075B81A1C282600EA3C98 /* SetManager.m */,
 				916B0D4D1A1C1F1400A8F9A5 /* Supporting Files */,
 			);
 			path = "Set Manager";
@@ -226,7 +246,11 @@
 			files = (
 				916B0D591A1C1F1400A8F9A5 /* SecondViewController.m in Sources */,
 				916B0D531A1C1F1400A8F9A5 /* AppDelegate.m in Sources */,
+				916075BA1A1C282600EA3C98 /* ListSetManager.m in Sources */,
 				916B0D561A1C1F1400A8F9A5 /* FirstViewController.m in Sources */,
+				916075BB1A1C282600EA3C98 /* OCSetManager.m in Sources */,
+				916075B91A1C282600EA3C98 /* LinkedListNode.m in Sources */,
+				916075BC1A1C282600EA3C98 /* SetManager.m in Sources */,
 				916B0D501A1C1F1400A8F9A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +442,7 @@
 				916B0D721A1C1F1400A8F9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		916B0D731A1C1F1400A8F9A5 /* Build configuration list for PBXNativeTarget "Set ManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				916B0D751A1C1F1400A8F9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

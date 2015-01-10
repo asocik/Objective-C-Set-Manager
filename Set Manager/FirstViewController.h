@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SetManager.h"
 
 @interface FirstViewController : UIViewController
-
+@property (strong, nonatomic) SetManager *sharedSetManager;
 
 @end
 
